@@ -1,0 +1,17 @@
+<html>
+<body>
+<h1>BOOTH'S Algorithm</h1><br>
+
+<form action="/multiply" method="POST">
+	NUMBER 1:  <input type="text" name="num1"><br>
+	NUMBER 2:  <input type="text" name="num2"><br>
+	<input type="submit" value="Evaluate"><br>
+</form>
+
+{% if prod %}
+	<h4>Product is :: {{ prod }} </h4>
+{% endif %}
+
+
+</body>
+</html>
